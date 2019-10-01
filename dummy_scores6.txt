@@ -1,0 +1,6 @@
+ava 7
+scott 2
+paul 3
+ogden 2
+sue 4
+butler 6

@@ -1,0 +1,21 @@
+I attempted to make my computer player smarter than choosing a random legal move very turn.
+I was able to make my AI smarter.
+
+My computer player is smarter than choosing a random move,
+but more advanced AI could be used (ex. using strategy, predicting future move, etc.)
+
+I had my AI always choose the legal move that flips the most tiles.
+If there is a tie for most, it would choose one of those moves.
+My algorithm was pretty simple to implement, given the way I found all legal moves.
+I found all the legal moves by starting at the square and moving in all 8 directions, using a loop.
+The program would check if there was an opposing tile, and keep going one there was.
+If it eventually hit a turn player tile, that was a legal move.
+To implement my algorithm, I used similar code, but create a tiles flipped counter,
+and kept track of tiles flipped in a list.
+I then chose the maximum number from that list, and had my AI choose that move.
+
+The AI beat a human player about 50% of the time. 
+
+To improve in the future, I would use a more complicated AI.
+The AI could be taught to follow a certain strategy,
+or to predict opponents moves, and choose a better option.
